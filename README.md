@@ -1,4 +1,4 @@
-# Bob
+# Ruby: Bob
 
 Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 
@@ -28,6 +28,21 @@ specification.
 
 Have fun!
 
+
+The tests use the Minitest testing framework. To install it run the command:
+
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby bob_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
 ## Source
 
 Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [http://pine.fm/LearnToProgram/?Chapter=06](http://pine.fm/LearnToProgram/?Chapter=06)
@@ -36,3 +51,6 @@ This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
