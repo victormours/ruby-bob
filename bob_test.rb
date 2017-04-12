@@ -28,7 +28,6 @@ class BobTest < Minitest::Test
   end
 
   def test_asking_a_question
-    skip
     remark = 'Does this cryogenic chamber make me look fat?'
     assert_equal 'Sure.', bob.hey(remark), feedback(remark)
   end
