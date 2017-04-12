@@ -1,6 +1,12 @@
 class Bob 
+
   def hey(remark)
-  	"Whatever."
+    if remark == 'WATCH OUT!' 
+      'Whoa, chill out!'
+    else
+      "Whatever."
+    end
   end
+
 end
   
