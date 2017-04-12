@@ -1,7 +1,7 @@
 class Bob 
 
   def hey(remark)
-    if remark == 'WATCH OUT!' 
+    if remark == remark.upcase
       'Whoa, chill out!'
     else
       "Whatever."

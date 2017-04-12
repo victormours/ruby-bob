@@ -23,7 +23,6 @@ class BobTest < Minitest::Test
   end
 
   def test_shouting_gibberish
-    skip
     remark = ('A'..'Z').to_a.sample(10).join
     assert_equal 'Whoa, chill out!', bob.hey(remark), feedback(remark)
   end
